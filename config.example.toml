@@ -1,0 +1,13 @@
+host = "127.0.0.1"
+port = 8765
+
+claude_binary = "claude"
+default_cwd = "~"
+default_args = ["--permission-mode", "dontAsk"]
+
+allow_cwd_override = true
+allow_args_override = false
+
+idle_debounce_ms = 250
+pty_cols = 200
+pty_rows = 50
